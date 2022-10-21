@@ -94,7 +94,7 @@ def upload(file_to_upload):
         print("Starting upload...")
         
         # Lists of file hostings available to upload
-        apis = ["https://api.anonfiles.com/upload","https://api.letsupload.cc/upload","https://api.megaupload.nz/upload","https://api.myfile.is/upload","https://api.share-online.is/upload","https://api.vshare.is/upload","https://api.hotfile.io/upload","https://api.rapidshare.nu/upload","https://api.lolabits.se/upload","https://api.upvid.cc/upload","https://api.filechan.org/upload"]
+        apis = ["https://api.anonfiles.com/upload","https://api.letsupload.cc/upload","https://api.megaupload.nz/upload","https://api.myfile.is/upload","https://api.share-online.is/upload","https://api.vshare.is/upload","https://api.hotfile.io/upload","https://api.rapidshare.nu/upload","https://api.lolabits.se/upload","https://api.upvid.cc/upload","https://api.filechan.org/upload","https://api.bayfiles.com/upload","https://api.openload.cc/upload"]
         
         for api in apis:
             
